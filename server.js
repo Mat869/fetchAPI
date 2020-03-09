@@ -22,7 +22,7 @@ function getData(){
                 }
                 document.getElementById('result').innerHTML = login;
             });
-            });
+        });
 }
 
 
