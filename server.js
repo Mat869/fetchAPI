@@ -9,7 +9,7 @@ function getData(){
     let logPassword = document.getElementById('password').value;
     console.log(logUsername);
     console.log(logPassword);
-    fetch('https://my-json-server.typicode.com/Mat869/fetchAPI/db')
+    fetch('https://my-json-server.typicode.com/Mat869/fetchAPI-server/db')
         .then((res) => {return res.json()})
         .then((data) => {
             let login = 'Username or password are not correct'
